@@ -1,7 +1,7 @@
 const Detalhesdocarro = ({marca, km, cor}) => {
     return (
         <div>
-            <h2>Detalhes do carro </h2>
+            <h2>Detalhes do carro: </h2>
             <ul>
                 <li>Marca: {marca}</li>
                 <li>Kilometragem: {km}</li>

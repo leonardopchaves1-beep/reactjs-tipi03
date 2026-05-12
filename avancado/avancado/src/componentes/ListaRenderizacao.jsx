@@ -12,13 +12,13 @@ const ListaRenderizacao = () => {
     { id: 2, name: "Pedro", age: 20 },
     { id: 3, name: "Josias", age: 19 },
   ]);
-  
+
   const deletandoaleatoriamente = () => {
     const numeroAleatorio = Math.floor(Math.random() * 4); // Gera um némero aleatório entre 0 e 3
 
     //atualização de estado - set
     setUsuarios((prevUsuarios) =>
-        prevUsuarios.filter((usuarios) => numeroAleatorio !== usuarios.id)
+      prevUsuarios.filter((usuarios) => numeroAleatorio !== usuarios.id)
     );
   };
 
@@ -29,11 +29,11 @@ const ListaRenderizacao = () => {
           <li key={index}>{nome}</li>
         ))}
       </ul>
-      
+
       {/* render COM key */}
       <ul>
         {usuarios.map((usuarios) => (
-            <li>{usuarios.name} - {usuarios.age}</li>
+          <li>{usuarios.name} - {usuarios.age}</li>
         ))}
       </ul>
 
