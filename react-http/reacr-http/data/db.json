@@ -1,0 +1,90 @@
+{
+  "products": [
+    {
+      "name": "capa de chuva",
+      "price": "10.50",
+      "id": "5"
+    },
+    {
+      "name": "teclado",
+      "price": "79.90",
+      "id": "6"
+    },
+    {
+      "name": "cadeira",
+      "price": "499.99",
+      "id": "7"
+    },
+    {
+      "name": "Leo",
+      "price": "150",
+      "id": "7N_-L7ptEVU"
+    },
+    {
+      "name": "Leo",
+      "price": "150",
+      "id": "KlYKs30N8Ug"
+    },
+    {
+      "name": "mouse",
+      "price": "150",
+      "id": "YdbQIiY9Ajs"
+    },
+    {
+      "name": "mouse",
+      "price": "150",
+      "id": "hxLO7fTtsmk"
+    },
+    {
+      "name": "mouse",
+      "price": "150",
+      "id": "3zx8x0D2SLA"
+    },
+    {
+      "name": "mouse",
+      "price": "150",
+      "id": "TBmPuJ6EmBM"
+    },
+    {
+      "name": "mouse",
+      "price": "150",
+      "id": "XL1xwIFaDnE"
+    },
+    {
+      "name": "mouse",
+      "price": "150",
+      "id": "iF_sXFur9PM"
+    },
+    {
+      "name": "mouse",
+      "price": "150",
+      "id": "to4XYahO4t4"
+    },
+    {
+      "name": "mouse",
+      "price": "150",
+      "id": "pju1Kn167lU"
+    },
+    {
+      "name": "mouse branco",
+      "price": "219",
+      "id": "tGandfTDoiM"
+    },
+    {
+      "name": "dwd",
+      "price": "11",
+      "id": "Z3DiYgQjWOo"
+    },
+    {
+      "name": "dwd",
+      "price": "11",
+      "id": "P_ovBarP_KQ"
+    },
+    {
+      "name": "dvd",
+      "price": "5",
+      "id": "UOQThQpnH6s"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
