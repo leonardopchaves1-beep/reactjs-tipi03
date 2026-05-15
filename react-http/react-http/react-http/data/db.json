@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "name": "capa de chuva",
+      "price": "10.50",
+      "id": "5"
+    },
+    {
+      "name": "teclado",
+      "price": "79.90",
+      "id": "6"
+    },
+    {
+      "name": "cadeira",
+      "price": "499.99",
+      "id": "7"
+    },
+    {
+      "name": "notebook",
+      "price": "3999.99",
+      "id": "We0bylLHq00"
+    },
+    {
+      "name": "mouse",
+      "price": "39.90",
+      "id": "6rrfujqDHdA"
+    },
+    {
+      "name": "monitor curvo",
+      "price": "1999.99",
+      "id": "0dV-qcir_Aw"
+    },
+    {
+      "name": "mesa madeira",
+      "price": " 299.99",
+      "id": "rqRK4eu8IXI"
+    },
+    {
+      "name": "mouse branco",
+      "price": "100.00",
+      "id": "ck0YXQRRjqc"
+    },
+    {
+      "name": "",
+      "price": "",
+      "id": "omh43hkKOWY"
+    },
+    {
+      "name": "",
+      "price": "",
+      "id": "FJHQzjcnay4"
+    },
+    {
+      "name": "fdghfghgf",
+      "price": "144",
+      "id": "qHdJ09hHWlg"
+    },
+    {
+      "name": "fdghfghgf",
+      "price": "144",
+      "id": "z6r2Xlg2wZM"
+    },
+    {
+      "name": "bob esponja",
+      "price": "64.90",
+      "id": "o0ghjqQYZ8s"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
