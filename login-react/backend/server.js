@@ -34,6 +34,24 @@ database: "cadastrarpessoas"
     
  });
 
+ //READ
+ app.post("/login", (req, res) => {
+    const sql = "SELECT * FROM cadastro WHERE email = ? AND password = ?";
+
+    db.query(sql, [req.body.email, req.body.password], (err, data) => {
+           if(err) {
+            console.log(err);
+            return res.status(500).json({ error: "Erro ao cadastrar "});
+            }
+
+            if(data.length > 0){
+                return res.json("Login realizado com sucesso");
+            } else {
+                return res.json("Falha no login");
+            }
+    });
+ });
+
 
 app.listen(7006, () => {
     console.log("Conectado ao banco de dados");
